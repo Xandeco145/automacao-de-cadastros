@@ -36,7 +36,7 @@ Para descobrir as coordenadas exatas dos botões no seu monitor:
 Substitua os seguintes pontos no script principal antes de rodar:
 *   **Link do site**: Altere `"LINK DO SEU SITE AQUI"` para a URL real do sistema.
 *   **Base de dados**: Altere `"ARQUIVO CSV AQUI"` para o nome do arquivo que será disponibilizado neste repositório (ex: `"produtos.csv"`).
-*   **Navegador**: O código está configurado para abrir o `"Navegador Opera GX"`. Se você usa o Google Chrome, altere o texto no `pyautogui.write()` na linha 11.
+*   **Navegador**: O código está configurado para abrir o `"Navegador Opera GX"`. Se você usa o Google Chrome, altere o texto no `pyautogui.write()` na linha 12.
 *   **Coordenadas de Login e Botões**: Substitua os valores de `x` e `y` nos comandos `pyautogui.click()` com os valores que você mapeou no passo anterior.
 
 ## ▶️ Como Executar
